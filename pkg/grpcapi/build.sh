@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Srcipt dir: $(dirname "$0")"
+
 # Get the directory where the script resides
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
